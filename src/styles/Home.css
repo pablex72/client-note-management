@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  padding: 0px 16px;
+  gap: 24px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .createButton {
+  margin-left: 24px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 12px;
+} */
+
+.createButton {
+  background-color: #bbc777;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.createButton:hover {
+  background-color: #a1af54;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.archiveButton {
+  background-color: #dfc11c;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.archiveButton:hover{
+  background-color: #97830e;
+}
+
+.categoryContainer {
+  display: flex;
+  color: black;
+  padding: 0px 16px;
+  margin: 8px 0px;
+  gap: 12px;
+  justify-content: center;
+}
+
+.selectCategory {
+  margin: 8px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    gap: 0px;
+    padding: 0px 24px;
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .buttonContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .createButton {
+    margin: 0px;
+  }
+
+  .categoryContainer {
+    padding: 0px 24px;
+  }
+}

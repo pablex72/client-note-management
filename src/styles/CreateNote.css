@@ -1,0 +1,12 @@
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.buttons-container button {
+  padding: 8px 8px;
+  margin: 0px 8px;
+  color: rgb(60, 49, 49);
+  background-color: rgb(207, 207, 230);
+}

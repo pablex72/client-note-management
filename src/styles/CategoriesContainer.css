@@ -1,0 +1,42 @@
+.edit-form
+{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  max-width: 360px;
+  padding: 20px;
+  gap: 12px;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 6px 34px 0px rgba(0, 0, 0, 0.75);
+}
+
+.edit-container {
+
+  margin: 2px 0;
+  padding: 0px 2px 0px 2px;
+  display: flex;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.category-texto {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  overflow-wrap: anywhere;
+}
+
+/* Icono */
+
+.edit-container-icons {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  cursor: pointer; 
+}
+.delete-icono {
+  padding: 0px 2px 4px 2px;
+  }
